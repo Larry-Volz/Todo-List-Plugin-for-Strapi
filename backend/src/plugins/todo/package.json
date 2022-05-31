@@ -1,0 +1,25 @@
+{
+  "name": "todo",
+  "version": "0.0.0",
+  "description": "A simple To Do list in Strapi.",
+  "strapi": {
+    "name": "todo",
+    "description": "A simple To Do list in Strapi",
+    "kind": "plugin",
+    "displayName": "Todo"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "Larry Volz"
+  },
+  "maintainers": [
+    {
+      "name": "Larry Volz"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
