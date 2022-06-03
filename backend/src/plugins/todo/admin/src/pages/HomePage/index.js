@@ -23,6 +23,7 @@ import TodoTable from "../../components/TodoTable";
 const HomePage = () => {
 
   //testing > 0
+  
 //   const [ todoData, setTodoData ] = useState([
 //     {
 //     id: 1,
@@ -34,7 +35,7 @@ const HomePage = () => {
 //       },
 // ]);
 
-const [ todoData, setTodoData ] = useState([]);
+  const [ todoData, setTodoData ] = useState([]);
 
 
   const [showModal, setShowModal] = useState(false);
