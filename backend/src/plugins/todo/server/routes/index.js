@@ -7,4 +7,14 @@ module.exports = [
       policies: [],
     },
   },
+
+  {
+    method: 'GET',
+    path: '/find',
+    handler: 'todo.find',
+    config: {
+      policies: [],
+      auth: false,
+    },
+  },
 ];
